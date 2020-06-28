@@ -9,6 +9,15 @@ public class SwiftMandarinToLatinPlugin: NSObject, FlutterPlugin {
   }
 
   public func handle(_ call: FlutterMethodCall, result: @escaping FlutterResult) {
-    result("iOS " + UIDevice.current.systemVersion)
+    if call.method == "mandarinToLatin" {
+      let chineseText = call.arguments as! String;
+      if let transform = chineseText.applyingTransform(.mandarinToLatin, reverse: false) {
+        result(transform)
+      } else {
+        result("")
+      }
+    } else {
+      result(FlutterMethodNotImplemented)
+    }
   }
 }
