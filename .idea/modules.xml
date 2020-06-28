@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mandarin_to_latin.iml" filepath="$PROJECT_DIR$/mandarin_to_latin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/mandarin_to_latin_android.iml" filepath="$PROJECT_DIR$/android/mandarin_to_latin_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example/android/mandarin_to_latin_example_android.iml" filepath="$PROJECT_DIR$/example/android/mandarin_to_latin_example_android.iml" />
+    </modules>
+  </component>
+</project>

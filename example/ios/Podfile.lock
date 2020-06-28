@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - mandarin_to_latin (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - mandarin_to_latin (from `.symlinks/plugins/mandarin_to_latin/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  mandarin_to_latin:
+    :path: ".symlinks/plugins/mandarin_to_latin/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  mandarin_to_latin: 68617f457117ad580a678f9f3b586ca120731956
+
+PODFILE CHECKSUM: c34e2287a9ccaa606aeceab922830efb9a6ff69a
+
+COCOAPODS: 1.9.1
